@@ -346,6 +346,21 @@ body{
     width: 100%;
 }
 
+.footer{
+    height: 10vh;
+    width: 100vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: textoSite;
+    font-size: 20px;
+
+    background:rgb(44, 44, 44);
+    color: #fff;
+}
+
 @media only screen and (max-width: 1000px) {
     .content .sobre .img{
         width: 90vw;
