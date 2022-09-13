@@ -350,6 +350,26 @@ body{
         align-items: center;
         justify-content: center;
     }
+    .content .formArea .button{
+        text-decoration: none;
+        font-family: logo;
+        color: #fff;
+        background: linear-gradient(to right, var(--colorOpacity1), var(--colorOpacity2));
+    
+        height: 10vh;
+        width: 90vw;
+    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+        border-radius: 10vh;
+    
+        transition: all 0.5s ease-in-out;
+    }
+    .content .formArea .button:hover{
+        background: linear-gradient(to right, var(--color1), var(--color2));
+    }
 }
 @media only screen and (max-width: 700px) {
     .menuLateral{
