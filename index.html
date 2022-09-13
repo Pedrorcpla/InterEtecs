@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InterEtecs</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="options">
+            <button class="menu" id="menu" onclick="openMenu()">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar1"></div>
+            </button>
+        </div>        
+        <h3>Inter Etecs</h3>
+
+        <div class="perfil">
+        </div>
+    </header>
+
+    <section class="menuLateral" id="menuLateral">
+        <div class="header">
+            <button id="close" onclick="closeMenu()">X</button>
+        </div>
+        <div class="options">
+            <a href="#welcome">Home</a>
+            <a href="#inscricao">Inscrição</a>
+            <a href="#sobre">Sobre nós</a>
+        </div>
+    </section>
+
+    <section class="content">
+        <div class="welcome" id="welcome">
+            <div class="info">
+                <h3>Primeiro<br>JEEBS</h3>
+                <p>Primeiro Jogos Escolares das Etecs da Baixada Santista!</p>
+            </div>
+            <div class="smartphone">
+                <img src="img/celular.png" alt="">
+            </div>
+        </div>
+
+        <div class="formArea" id="inscricao">
+            <h3>Inscrição no Evento</h3>
+            <p>Ainda há tempo para se inscrever.<br>Preencha o formulário abaixo para se cadastrar no maior evento entre Etecs da Baixada Santista.<br>
+                Ao cadastrar, a unidade escolar está de acordo com o Regulamento Geral dos Jogos Interescolares das Etecs da Baixada Santista encontrado a seguir:
+            </p>
+
+            <a href="./doc/regulamento.docx" download class="button">Regulamento Geral dos Jogos</a>
+            
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdidi66WtsaXbxIh165yenyTR7NtinnVAO1-F9oA2yTypXtLQ/viewform?embedded=true" width="640" height="1075" frameborder="0" marginheight="0" marginwidth="0">Carregando…</iframe>
+        </div>
+
+        <div class="sobre" id="sobre">
+            <h3>Sobre o Inter Etecs</h3>
+            <div class="dados">
+                <div class="img">
+                    <img src="./img/logo.png" alt="">
+                </div>
+
+                <p>A essência do projeto é possibilitar uma vivência, durante a vida escolar, aos educandos, que permeie a sua formação pessoal e profissional, possibilitando a todos a participação como jovem atleta e, aos alunos de Administração a confecção de um portfólio profissional.
+                    <br><br>
+                    O evento contará com a participação de escolas da rede pública, convidadas por cada unidade do núcleo da baixada santista, com o objetivo de divulgar cada unidade em sua respectiva região, gerando interesse no ingresso de novos educandos.                
+                </p>
+            </div>
+            <div class="dados">
+                <p>Com a ETEC de Peruíbe, sendo pioneira em um evento de tamanha magnitude dentro do Centro Paula Souza e escola sede, serão convidadas as unidades das cidades Cubatão (Etec de Cubatão); Guarujá (Etec Alberto Santos Dumont); Itanhaém (Etec de Itanhaém); Mongaguá (Etec Adolpho Berezin), Praia Grande (Etec Praia Grande), Santos (Etec Aristóteles Ferreira e Etec Dona Escolástica Rosa) e São Vicente (Etec Dra. Ruth Cardoso).
+                    <br><br>
+                    Cada unidade escolar poderá convidar uma segunda unidade, pertencente a rede publica de sua cidade, para participar do evento.                                
+                </p>
+
+                <div class="img">
+                    <img src="./img/logo.png" alt="">
+                </div>
+            </div>
+            
+        </div>
+        
+    </section>
+
+    <footer>
+
+    </footer>
+    
+    <script src="./js/script.js"></script>
+</body>
+</html>
