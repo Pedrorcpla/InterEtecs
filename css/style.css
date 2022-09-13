@@ -340,3 +340,109 @@ body{
     filter:drop-shadow(2px 2px 0 white) 
            drop-shadow(-2px -2px 0 white);
 }
+
+@media only screen and (max-width: 1000px) {
+    .content .sobre .img{
+        width: 40vw;
+        height: 45vh;
+    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media only screen and (max-width: 700px) {
+    .menuLateral{
+        height: 100vh;
+        width: 50vw;
+    }
+    .menuLateral .options a{
+        font-size: 1em;
+    }
+
+    .content .welcome{
+        display: flex;
+        flex-direction: column;
+    
+        min-height: 95vh;
+        width: 100vw;
+    }
+    .content .welcome .info{
+        width: 80vw;
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .content .welcome .info h3{
+        font-size: 2.5em;
+    }
+    .content .welcome .info p{
+        font-size: 1.3em;
+    }
+    .content .welcome .smartphone{
+        display: none;
+    }
+
+    .content .formArea{
+        min-height: 100vh;
+        width: 100vw;
+    
+        background-color: #fff;
+        color: #000;
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .content .formArea h3{
+        font-size: 2em;
+        text-align: center;
+    
+        color: #8300ee;
+    }
+    .content .formArea p{
+        font-size: 1.3em;
+        text-align: center;
+        width: 80vw;
+    }
+    .content .formArea iframe{
+        height: 100vh;
+        width: 90vw;
+    
+        margin: 2% 0;
+    }
+
+    .content .sobre{
+        min-height: 100vh;
+        width: 100vw;
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .content .sobre h3{
+        font-size: 2em;
+        font-family: logo;
+    }
+    .content .sobre .dados{
+        width: 100vw;
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .content .sobre .dados p{
+        font-size: 1em;    
+        width: 80vw;
+    }
+    .content .sobre .img{
+        width: 40vw;
+        height: 45vh;
+    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
