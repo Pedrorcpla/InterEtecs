@@ -316,6 +316,8 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+
+    margin-bottom: 3%;
 }
 .content .sobre .dados p{
     font-size: 1.3em;
@@ -326,19 +328,22 @@ body{
 }
 .content .sobre .img{
     width: 40vw;
-    height: 75vh;
+    height: 60vh;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.content .sobre .img img{
-    height: 100%;
-
+    border-radius: 5vh;
     -webkit-filter: drop-shadow(2px 2px 0 white) 
                     drop-shadow(-2px -2px 0 white);
     filter:drop-shadow(2px 2px 0 white) 
            drop-shadow(-2px -2px 0 white);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    overflow: hidden;
+}
+.content .sobre .img img{
+    width: 100%;
 }
 
 @media only screen and (max-width: 1000px) {
