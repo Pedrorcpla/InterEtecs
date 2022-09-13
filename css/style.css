@@ -367,6 +367,9 @@ body{
         width: 90vw;
         height: 50vh;
     }
+    .content .sobre .img img{
+        width: 130%;
+    }
     .content .formArea .button{
         text-decoration: none;
         font-family: logo;
